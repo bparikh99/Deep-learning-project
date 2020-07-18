@@ -11,3 +11,5 @@
 ##### 1.Save the model which gives better accuracy!
 ##### 2.Used that model to predict the class of image
 
+![Screenshot (4)](https://user-images.githubusercontent.com/59947941/87851168-e31b4c00-c913-11ea-922e-08477feb1975.png)
+
