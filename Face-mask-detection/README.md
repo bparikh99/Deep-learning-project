@@ -31,7 +31,7 @@ python generate_tfrecord.py --csv_input=images/test_labels.csv --image_dir=image
 python models/research/model_main.py --logtostderr --model_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_pets.config
  
 
-###Generate inference graph
+### Generate inference graph
 
 python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_inception_v2_pets.config --trained_checkpoint_prefix training/model.ckpt-{{last-epoch-number}}--output_directory inference_graph
 
